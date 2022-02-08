@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Cont-1 .Text-1{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    color: #333333; 
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+.Cont-1 .Img_C{
+    position: absolute;
+    width: 539px;
+    height: 447px;
+    left: 77px;
+    top: 265px;
+}
+
+.Cont-2{
+    height: 1000px;
+}
+
+.Cont-2 .Text-2{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    font-family: 'Space Mono';
+    color: #333333;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.Cont-2 .Text-2_1{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: 'Space Mono';
+    color: #4F4F4F;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.Cont-2 .Btn{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    color: #FFFFFF;
+    left: 740px;
+    top: 663px;
+    bottom: 349px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.Cont-2 .Btn:active{
+    transform: scale(1);
+}
+
+.Copyright{
+    position: absolute;
+    width: 350px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+    bottom: 24px;
+    text-align: center;
+}
+
+.Copyright .CopyT{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #8b8b8b;
+}
+
+@media screen and (max-width: 480px) {
+    .Cont-1 .Text-1{
+        left: 20px;
+        top: 20px;
+    }
+    .Cont-1 .Img_C{
+        width: 280px;
+        height: 230px;
+        top: 109px;
+        left: 40px;
+    }
+    .Cont-2 .Text-2{
+        width: 305px;
+        height: 120px;
+        left: 20px;
+        top: 407px;
+        font-size: 40px;
+        line-height: 71px;
+    }
+    .Cont-2 .Text-2_1{
+        width: 310px;
+        height: 78px;
+        left: 23px;
+        top: 579px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .Cont-2 .Btn{
+        left: 24px;
+        top: 726px;
+    }
+    .Copyright{
+        width: 280px;
+        left: 40px;
+        top: 908px;
+    }
+}
